@@ -56,6 +56,7 @@ table {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #292929;
 }
 .top_content {
     display: flex;
@@ -101,17 +102,23 @@ nav a:hover {
     color: #414141;
 }
 
+.main_content {
+  
+}
 h2{
     font-size: 3rem;
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
     margin: 2rem auto;
+    color: darkkhaki;
 }
 
 p{
     font-family: 'Montserrat Alternates', sans-serif;
     margin: 2rem;
     line-height: 1.5rem;
+    color: wheat;
 
 }
+
 
