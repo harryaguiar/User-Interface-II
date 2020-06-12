@@ -142,6 +142,7 @@ nav a:hover {
 footer{
     background-color: #414141;
     color: cornsilk;
+    padding-bottom: 1rem;
 }
 .main_footer{
     display: flex;
@@ -255,3 +256,5 @@ footer a {
     text-decoration: none;
     color:  wheat;
 }
+
+
