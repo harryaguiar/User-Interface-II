@@ -154,7 +154,20 @@ footer{
 .social_footer {
     display: flex;
     flex-direction: column;
+    align-items: left;
     line-height: 1.5rem;
+}
+
+.social_footer img{
+    width: 3rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: .3rem;
+    margin: .5rem 0;
+}
+
+.social_footer img:hover{
+    background-color: rgb(67, 224, 19);
 }
 
 .contact_footer {
@@ -177,4 +190,10 @@ footer{
 footer p{
     text-align: center;
     font-size: .5rem;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color:  wheat;
 }
