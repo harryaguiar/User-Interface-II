@@ -95,11 +95,31 @@ nav a{
 .home_nav {
     background-color: cornsilk;
     color: #414141;
+    border-radius: 30%;
+}
+
+.about_nav {
+    background-color: #414141;
+    color: cornsilk;
+    border-radius: 30%;
+}
+
+.projects_nav {
+    background-color: #414141;
+    color: cornsilk;
+    border-radius: 30%;
+}
+
+.contact_nav {
+    background-color: #414141;
+    color: cornsilk;
+    border-radius: 30%;
 }
 
 nav a:hover {
     background-color: cornsilk;
     color: #414141;
+    border-radius: 30%;
 }
 
 .main_content {
@@ -121,4 +141,40 @@ p{
 
 }
 
+footer{
+    background-color: #414141;
+    color: cornsilk;
+}
+.main_footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
 
+.social_footer {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+}
+
+.contact_footer {
+    display: flex;
+    align-items: center;
+}
+
+.contact_footer button {
+    background-color: #292929;
+    color: whitesmoke;
+    line-height: 1.6rem;
+    font-weight: bold;
+}
+
+.contact_footer button:hover {
+    background-color: #a70000;
+    border-radius: 20%;
+}
+
+footer p{
+    text-align: center;
+    font-size: .5rem;
+}

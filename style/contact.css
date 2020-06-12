@@ -1,0 +1,22 @@
+.home_nav {
+    background-color: #414141;
+    color: cornsilk;
+}
+
+.about_nav {
+    background-color: #414141;
+    color: cornsilk;
+    border-radius: 30%;
+}
+
+.projects_nav {
+    background-color: #414141;
+    color: cornsilk;
+    border-radius: 30%;
+}
+
+.contact_nav {
+    background-color: cornsilk;
+    color: #414141;
+    border-radius: 30%;
+}
