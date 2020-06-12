@@ -122,10 +122,7 @@ nav a:hover {
     border-radius: 30%;
 }
 
-.main_content {
-  
-}
-h2{
+.main_content h2{
     font-size: 3rem;
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
@@ -133,7 +130,7 @@ h2{
     color: darkkhaki;
 }
 
-p{
+.main_content p{
     font-family: 'Montserrat Alternates', sans-serif;
     margin: 2rem;
     line-height: 1.5rem;
@@ -148,7 +145,9 @@ footer{
 .main_footer{
     display: flex;
     justify-content: space-around;
-    
+    flex-direction: row;
+    /* margin: 2rem; */
+    /* padding-top: 2rem;   */
 }
 
 .social_footer {
@@ -156,6 +155,9 @@ footer{
     flex-direction: column;
     align-items: left;
     line-height: 1.5rem;
+    
+    /* width: 200px; */
+    /* align-content:; */
 }
 
 .social_footer img{
@@ -164,22 +166,77 @@ footer{
     border-radius: 50%;
     padding: .3rem;
     margin: .5rem 0;
+    
 }
 
 .social_footer img:hover{
-    background-color: rgb(67, 224, 19);
+    background-color: #36aae0;
 }
 
+.social_footer h3{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
 .contact_footer {
     display: flex;
     align-items: center;
 }
 
+/* .social_links {
+    display: flex;
+    flex-direction: column;    
+} */
+
+
+
+.social_footer img {
+    width: 3rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: .3rem;
+    margin: .5rem 0;
+}
+
+.social_footer img:hover{
+    background-color: #36aae0;
+}
+
+.github {
+    width: 18.75rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem auto;
+    height: 2rem;    
+}
+
+.github a{
+    width: 3.5rem;
+    font-size: 1rem;
+}
+
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 18.75rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.linkedin a{
+    width: 3.5rem;
+    font-size: 1rem;
+}
+
+
 .contact_footer button {
     background-color: #292929;
     color: whitesmoke;
-    line-height: 1.6rem;
+    line-height: 2.5rem;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .contact_footer button:hover {
