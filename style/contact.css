@@ -50,7 +50,7 @@ input[type=text], input[type=email], select, textarea {
   }
 
   .contact_form {
-    border-bottom: 0.0625rem dashed black;
+    
     width: 90%;
     margin: auto;
   }
