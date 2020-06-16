@@ -20,3 +20,9 @@
     color: cornsilk;
     border-radius: 30%;
 }
+
+.main_content img{
+    margin: 0 auto;
+    width: 20rem;
+    display: block;
+}
