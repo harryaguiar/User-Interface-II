@@ -100,31 +100,31 @@ nav a{
 .home_nav {
     background-color: cornsilk;
     color: #414141;
-    border-radius: 30%;
+    border-radius: 15rem;
 }
 
 .about_nav {
     background-color: #414141;
     color: cornsilk;
-    border-radius: 30%;
+    border-radius: 15rem;
 }
 
 .projects_nav {
     background-color: #414141;
     color: cornsilk;
-    border-radius: 30%;
+    border-radius: 15rem;
 }
 
 .contact_nav {
     background-color: #414141;
     color: cornsilk;
-    border-radius: 30%;
+    border-radius: 15rem;
 }
 
 nav a:hover {
     background-color: cornsilk;
     color: #414141;
-    border-radius: 30%;
+    border-radius: 15rem;
 }
 
 .main_content h2{
@@ -161,6 +161,7 @@ footer{
     flex-direction: column;
     align-items: left;
     line-height: 1.5rem;
+    margin: 1.5rem;
     
     /* width: 200px; */
     /* align-content:; */
@@ -262,6 +263,43 @@ footer a {
 }
 
 @media (max-width: 500px){
-    nav
+    .top_content {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        background-color: #e9e9e9;
 
+
+    }
+
+    h1{
+        text-align: center;
+        color: #414141;
+        font-size: 2.5rem;
+    }
+    nav {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a{
+        text-decoration: none;
+        font-size: 2rem;
+        margin: 1rem;
+        color: cornsilk;
+        padding: .5rem;
+    
+        border-right: solid black;
+        justify-content: space-around;
+    
+    }
+
+    .main_content {
+        border-top: #414141 1rem solid;
+        border-radius: 15%;
+    }
+
+    
 }
