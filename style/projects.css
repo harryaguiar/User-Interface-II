@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    /* margin: 0 auto; */
 }
 
 .projects .content{
@@ -34,7 +35,7 @@
     align-items: center;
     border-right: dashed black .05rem;
     border-bottom: dashed black .05rem;
-    margin: 2rem;
+    margin: 2rem auto;
     padding: 1rem;
     width: 42%;
 }
